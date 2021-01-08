@@ -1,6 +1,6 @@
         <?php 
-  
-
+  // CÓDIGOS COMENTADA TEMPORALMENTE, PERO MAS ADELANTE SE PODRÁ ADECUAR LA CONEXIÓN A LA BASE DE DATOS MYSQL. ESTE COMETARIO ES POR SI EL -
+// PROFESOR QUIERE EJECUTAR EN EL NAVEGADOR, PARA QUE NO SE PRESENTE ALGÚN ERROR AL EJECUTAR./// ... importante!
    /* require_once './code/conect.php';
     $conexion = new mysqli($hn, $un, $pw, $db, $port);
     if ($conexion->connect_error) die ("Fatal error");
