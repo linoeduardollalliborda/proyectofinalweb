@@ -1,0 +1,197 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: monospace;
+}
+body{
+
+	background: pink;
+}
+
+
+.section1{
+	padding-top: 14px;
+	margin: auto;
+	width: 90%;
+	height: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.hover1,.hover2,.hover3{
+	display: flex;
+	width: 30%;
+	height: 12px;
+	margin: 1.5%;
+	text-align: center;
+	font-size: 1.05em;
+	color: blue;
+	justify-content: center;
+	
+}
+#letra1{
+	color: blue;
+
+}
+#letra1:hover{
+	cursor: pointer;
+	color:green;
+	transform:  scale(1.02);
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+
+
+.section1{
+	display: none;
+}
+
+
+.hover1,.hover2,.hover3{
+	overflow: hidden;
+}
+
+}
+
+
+
+
+
+
+
+
+a{
+	
+	text-decoration-line: none;
+}
+
+.section{
+ margin: auto;
+	width: 90%;
+	height: 70vh;
+	background-color: aliceblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.box{
+	width: 30%;
+	height: 40vh;
+	text-align: center;
+	overflow: hidden;
+	margin: 1.5%;
+	position: relative;
+border-radius: 10px;
+
+}
+.box img{
+
+	width: 100%;
+	height: 100%;
+
+}
+.box .hover{
+	width: 0%;
+	height:40vh;
+	background-color: rgba(56,53,53,0.568);
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	transition: 0.4s all;
+}
+
+.box h1{
+	text-shadow: 1px 1px 1px black;
+	color: aliceblue;
+	font-size: 2em;
+	text-transform:  uppercase;
+}
+.box:hover .hover{
+	cursor: pointer;
+	width: 100%;
+	color:deepskyblue;
+}
+.box h1:hover{
+text-decoration-line: none;	
+color:deepskyblue;
+	transform: scale(1.05);
+}
+@media screen and (max-width: 900px){
+.box h1{
+	text-shadow: 1px 1px 1px black;
+	color: aliceblue;
+	font-size: 1.5em;
+	text-transform:  uppercase;
+}
+  }
+@media screen and (max-width: 800px){
+
+  
+.section{
+ margin: auto;
+	width: 93%;
+	height: 120vh;
+	background-color: aliceblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  flex-direction: column;
+}
+.box{
+	width: 85%;
+	height: 60vh;
+	text-align: center;
+	overflow: hidden;
+	margin: 1.5%;
+	position: relative;
+border-radius: 10px;
+
+}
+.box img{
+
+	width: 100%;
+	height: 100%;
+
+}
+.box .hover{
+	width: 0%;
+	height:40vh;
+	background-color: rgba(56,53,53,0.568);
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	transition: 0.4s all;
+}
+
+.box h1{
+	text-shadow: 1px 1px 1px black;
+	color: aliceblue;
+	font-size: 1.5em;
+
+	text-transform:  uppercase;
+}
+.box:hover .hover{
+	cursor: pointer;
+	width: 100%;
+
+}
+
+
+
+}
