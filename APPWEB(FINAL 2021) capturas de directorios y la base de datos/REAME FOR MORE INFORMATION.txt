@@ -1,0 +1,2 @@
+se ha cargado los archivos de codiogo por separado. porque git no permitia subir mas de 100 archivos en un solo bloque. aqui le envio la estructura 
+de los directorios para que tenga una referencia. asimismo esta aqui la base de datos correspondiente.
